@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@200&family=Moon+Dance&family=Poppins&family=Raleway&family=Roboto:wght@300&display=swap');
+
+body{
+    padding: 10px 30px;
+    font-family: Raleway;
+    background-color: #1f2937;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: #eee;
+    align-items: center;
+}
+
+nav .navigation .dropdown a{
+    text-decoration: none;
+    color: #eee;
+    margin-right: 20px;
+}
+nav .navigation .dropdown ul li a:hover {
+    color: #eee;
+    background-color: #1f2937;
+}
+nav .logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
+nav .logo a {
+    text-decoration: none;
+    color: #eee;
+    margin-top: 10px;
+}
+nav .navigation {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+}
+nav .navigation li a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #eee;
+}
+nav .navigation li a:hover {
+    color: white;
+}
+nav .logo img {
+    width: 50px;
+    margin-right: 20px;
+}
+nav .navigation .drpdwn {
+    position: relative;
+    display: inline-block;
+}
+nav .navigation .drpdwn .dropdown-menu {
+    display: none;
+    position: absolute;
+    border: 1px solid #eee;
+    border-radius: 15px;
+    color: #eee;
+    min-width: 180px;
+    z-index: 1;
+    padding: 5px 10px;
+    margin-top: 2px;
+}
+nav .navigation .drpdwn .dropdown-menu a{
+    color: #eee;
+    margin-left: 10px;
+    text-decoration: none;
+}
+nav .navigation .drpdwn:hover .dropdown-menu {
+    display : block;
+}
+nav .users {
+    display: flex;
+    justify-content: space-around;
+}
+nav .users a {
+    padding: 7px 15px;
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid #eee;
+    color: #eee;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+    margin-right: 10px;
+    margin-top: -10px;
+}
+nav .users a:hover {
+    transform: scale(1.05);
+    background-color: #0ba5e9;
+}
+
+
+main{
+    display: flex;
+    justify-content: space-around;
+    color: #eee;
+    align-items: center;
+    transition: 400ms ease-in-out;
+}
+main .words {
+    margin-top: 60px;
+    padding-left: 20px;
+}
+main .words button {
+    padding: 20px 30px;
+    background-color: transparent;
+    border: 1px solid #eee;
+    color: #eee;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+}
+main .words button:hover {
+    transform: scale(1.05);
+    background-color: #0ba5e9;
+}
+main .image {
+    margin-top: 60px;
+    
+}
+main .image img{
+    transition: 400ms ease-in-out;
+}
+main .words h1 {
+    font-size: 60px;
+    margin-top: -10px;
+}

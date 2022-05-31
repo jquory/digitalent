@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@200&family=Moon+Dance&family=Poppins&family=Raleway&family=Roboto:wght@300&display=swap');
+
+body{
+    padding: 10px 30px;
+    font-family: Raleway;
+    background-color: #1f2937;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: #eee;
+    align-items: center;
+}
+nav .navigation .dropdown a{
+    text-decoration: none;
+    color: #eee;
+    margin-right: 20px;
+}
+nav .navigation .dropdown ul li a:hover {
+    color: #eee;
+    background-color: #1f2937;
+}
+nav .logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
+nav .logo a {
+    text-decoration: none;
+    color: #eee;
+    margin-top: 10px;
+}
+nav .navigation {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+}
+nav .navigation li a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #eee;
+}
+nav .navigation li a:hover {
+    color: white;
+}
+nav .logo img {
+    width: 50px;
+    margin-right: 20px;
+}
+
+main form {
+    display: flex;
+    color: #eee;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 40%;
+    padding: 20px;
+    transition: 400ms ease-in-out;
+}
+main hr {
+    width: 100%;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+main form input {
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: #eee;
+}
+main form textarea {
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+main form button {
+    padding: 10px 0px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid #eee;
+    color: #eee;
+    cursor: pointer;
+    transition: 300ms ease-in-out;
+}
+main form button:hover {
+    transform: scale(1.05);
+    background-color: #0ba5e9;
+}
